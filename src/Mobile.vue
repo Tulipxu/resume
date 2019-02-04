@@ -105,7 +105,7 @@ html{
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `金伟
+        fullMarkdown: `金伟(水瓶)
 ====
 
 坐标：上海虹口。
