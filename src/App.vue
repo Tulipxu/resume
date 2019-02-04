@@ -119,22 +119,20 @@ html{
 `],
         currentMarkdown: '',
         currentThankMarkdown: '',
-        fullMarkdown: `南方
+        fullMarkdown: `金伟（水瓶）
 ====
 
 坐标：上海虹口。
 
 资深软件工程师。
 
-技能
+爱好
 ====
 
-数据库设计
-----
-  - 结构化数据库设计
-  - noSQL,orcle设计
+  - 看电影、旅游
+  - 游戏、新科技
 
-后端开发
+工作内容
 ----
   - 用户管理
   - 单点登录
@@ -147,20 +145,20 @@ html{
   - 公众号开发
   - 小程序开发
   - API接口开发
-
-前端开发
+  
+扩展计能
 ----
   - Web前端开发
   - 移动终端(Native App, Hybrid App)
 
 
 
-技术及语言
+性格
 ----
-  - Java: SpringMVC, SpringCloud, Hibernate, iBatis, spark, sql2o, HikariCP, freemarker, okHttp, retrofit, RxJava
-  - DB: SQLServer, Oracle, MySQL/MariaDB, MongoDB, graphQL, redis, memcached
-  - WebServer: apache, nginx, tomcat, netty, jetty
-  - Others: git, Xmind，Axure
+  - 阳光开朗
+  - 温文尔雅
+  - 大方聪明
+  - 责任有担当
 
 工作经历
 ----

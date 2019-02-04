@@ -100,7 +100,9 @@ html{
   border-bottom: 1px solid;
   margin: 1em 0 .5em;
 }
-
+.resumeEditor ul,.resumeEditor ol{
+  list-style: none;
+}
 `],
         currentMarkdown: '',
         fullMarkdown: `金伟
