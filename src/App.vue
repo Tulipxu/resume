@@ -30,9 +30,8 @@
         enableHtml: false,
         fullStyle: [
           `/*
-* Inspired by http://strml.net/
-* 源码地址 https://github.com/sitexa/anires
-* 大家好，我是南方。
+* 源码地址  https://tulipxu.github.io/resume/public/index.html
+* 大家好，我是金伟。
 * 我来写一份简历！
 */
 
