@@ -105,67 +105,8 @@ html{
   border-bottom: 1px solid;
   margin: 1em 0 .5em;
 }
-.resumeEditor ul,.resumeEditor ol{
-  list-style: none;
-}
-.resumeEditor ul> li::before{
-  content: '•';
-  margin-right: .5em;
-}
-.resumeEditor ol {
-  counter-reset: section;
-}
-.resumeEditor ol li::before {
-  counter-increment: section;
-  content: counters(section, ".") " ";
-  margin-right: .5em;
-}
-.resumeEditor blockquote {
-  margin: 1em;
-  padding: .5em;
-  background: #ddd;
-}
+
 `, `
-.styleEditor{
-    width:50vw;height:70vh;
-}
-
-.resumeEditor{
-   width:50vw;height:70vh;
-}
-
-.thankEditor{
-  position: relative; left: 0; top: 0;
-  background: #E9D9BB;
-  color: #001C42;
-  overflow: auto;
-}
-
-.thankEditor {
-  width: 99vw; height: 45vh;
-  border: 1px solid #ccc;
-  font-size: .9em;
-}
-`,`
-.thankEditor{
-  padding: .5em;  margin: .5em; margin-top:1em;
-}
-
-.thankEditor ul,.thankEditor ol{
-  list-style: none;
-}
-.thankEditor ul> li::before{
-  content: '☞'; color: red;
-  margin-right: .5em;
-}
-.thankEditor ol {
-  counter-reset: section;
-}
-.thankEditor ol li::before {
-  counter-increment: section;
-  content: counters(section, "☞") " ";
-  margin-right: .5em;
-}
 
 .thankEditor{
   width: 99vw; height: 45vh;
@@ -178,20 +119,22 @@ html{
 `],
         currentMarkdown: '',
         currentThankMarkdown: '',
-        fullMarkdown: `金伟
+        fullMarkdown: `南方
 ====
 
 坐标：上海虹口。
 
 资深软件工程师。
 
-爱好
+技能
 ====
 
-  - 看电影、旅游
-  - 游戏、新科技
+数据库设计
+----
+  - 结构化数据库设计
+  - noSQL,orcle设计
 
-工作内容
+后端开发
 ----
   - 用户管理
   - 单点登录
@@ -204,20 +147,20 @@ html{
   - 公众号开发
   - 小程序开发
   - API接口开发
-  
-扩展计能
+
+前端开发
 ----
   - Web前端开发
   - 移动终端(Native App, Hybrid App)
 
 
 
-性格
+技术及语言
 ----
-  - 阳光开朗
-  - 温文尔雅
-  - 大方聪明
-  - 责任有担当
+  - Java: SpringMVC, SpringCloud, Hibernate, iBatis, spark, sql2o, HikariCP, freemarker, okHttp, retrofit, RxJava
+  - DB: SQLServer, Oracle, MySQL/MariaDB, MongoDB, graphQL, redis, memcached
+  - WebServer: apache, nginx, tomcat, netty, jetty
+  - Others: git, Xmind，Axure
 
 工作经历
 ----

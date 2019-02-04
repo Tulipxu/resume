@@ -100,26 +100,7 @@ html{
   border-bottom: 1px solid;
   margin: 1em 0 .5em;
 }
-.resumeEditor ul,.resumeEditor ol{
-  list-style: none;
-}
-.resumeEditor ul> li::before{
-  content: '•';
-  margin-right: .5em;
-}
-.resumeEditor ol {
-  counter-reset: section;
-}
-.resumeEditor ol li::before {
-  counter-increment: section;
-  content: counters(section, ".") " ";
-  margin-right: .5em;
-}
-.resumeEditor blockquote {
-  margin: 1em;
-  padding: .5em;
-  background: #ddd;
-}
+
 `],
         currentMarkdown: '',
         fullMarkdown: `金伟
